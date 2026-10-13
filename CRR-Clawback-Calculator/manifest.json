@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-dash",
+    "entrypoint": "main_app:app"
+  },
+  "python": {
+    "version": "3.12.4",
+    "package_manager": {
+      "name": "pip",
+      "version": "25.0.1",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "8c7c78db98f743d4195484e80192c1bc"
+    },
+    ".gitignore": {
+      "checksum": "4c26e7b1668a5490bc6fcdc3e0ec54a2"
+    },
+    "main_app.py": {
+      "checksum": "0551ec3d1489b1f4eaa591870303992d"
+    },
+    "clawback_calc.py": {
+      "checksum": "57ef0d5b3d36b9a2b1014096f2ac24c5"
+    }
+  }
+}
